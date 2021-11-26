@@ -1,0 +1,49 @@
+#app {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #fdfdfd;
+}
+
+/* input {
+    border: 1px solid silver;
+    border-radius: 4px;
+    background: white;
+    padding: 5px 10px;
+  } */
+  .warning-text{
+font-size: small;
+font-style: italic;
+margin-left: 15px;
+  }
+
+
+  .dirty {
+    border-color: #5A5;
+    background: #EFE;
+  }
+  
+  .dirty:focus {
+    outline-color: #8E8;
+  }
+  
+  .error {
+    border-color: red;
+    background: #FDD;
+  }
+  
+  .error:focus {
+    outline-color: #F99;
+  }
+
+  .router-link-exact-active {
+    font-weight: bolder;    
+}
+
+.note{
+  background-color: #FFC107;
+  padding: 15px;
+  border-radius: 15px;
+}
+
