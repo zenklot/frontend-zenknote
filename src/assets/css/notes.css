@@ -302,3 +302,23 @@
 }
 
 
+.not{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color:transparent;
+  z-index: 99;
+}
+
+.card:hover{
+  background-color: #FFC22B;
+  border: black 1px solid;
+}
+
+.card {
+  
+  border-radius: 15px;
+}

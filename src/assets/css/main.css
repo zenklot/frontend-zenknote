@@ -16,6 +16,7 @@ body{
 font-size: small;
 font-style: italic;
 margin-left: 15px;
+margin-top: -6px;
   }
 
 
@@ -47,3 +48,15 @@ margin-left: 15px;
   border-radius: 15px;
 }
 
+.addBtn{
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:60px;
+	right:70px;
+	background-color:#FFC107;
+	color:black;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px rgb(87, 87, 87)
+}
